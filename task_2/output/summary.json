@@ -1,0 +1,20 @@
+{
+    "total_students": 7,
+    "submitted_students": 5,
+    "missing_submissions": 2,
+    "average_score": 6.8,
+    "highest_scorer": "Isha",
+    "lowest_scorer": "Rohan",
+    "domain_wise_average": {
+        "Electronics": 9.0,
+        "ML": 7.5,
+        "Web": 5.0
+    },
+    "students_not_submitted": [
+        "Kabir",
+        "Dev"
+    ],
+    "students_below_5": [
+        "Rohan"
+    ]
+}

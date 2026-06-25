@@ -5,7 +5,6 @@ import pandas as pd
 def read_submissions(file_path: str) -> pd.DataFrame:
     try:
         df = pd.read_csv(file_path)
-
         df["score"] = pd.to_numeric(df["score"])
         return df
     except FileNotFoundError:
@@ -18,10 +17,8 @@ def read_submissions(file_path: str) -> pd.DataFrame:
         print("Error: Invalid score values found.")
         return pd.DataFrame()
 
-
 def get_submitted_students(df: pd.DataFrame) -> pd.DataFrame:
     return df[df["submitted"].str.lower() == "yes"]
-
 
 def calculate_average_score(df: pd.DataFrame) -> float:
     submitted = get_submitted_students(df)
@@ -34,7 +31,6 @@ def get_domain_wise_average(df: pd.DataFrame) -> dict[str, float]:
     domain_avg = submitted.groupby("domain")["score"].mean()
     domain_avg = domain_avg.round(2)
     return domain_avg.to_dict()
-
 
 def get_missing_submissions(df: pd.DataFrame) -> list[str]:
     missing = df[df["submitted"].str.lower() == "no"]

@@ -1,0 +1,73 @@
+{
+    "rows": 10,
+    "columns": [
+        "student_id",
+        "name",
+        "domain",
+        "attendance_percent",
+        "score",
+        "study_hours",
+        "submitted",
+        "height_cm",
+        "weight_kg"
+    ],
+    "data_types": {
+        "student_id": "str",
+        "name": "str",
+        "domain": "str",
+        "attendance_percent": "float64",
+        "score": "float64",
+        "study_hours": "float64",
+        "submitted": "object",
+        "height_cm": "float64",
+        "weight_kg": "float64"
+    },
+    "missing_values": {
+        "student_id": 0,
+        "name": 0,
+        "domain": 0,
+        "attendance_percent": 0,
+        "score": 0,
+        "study_hours": 0,
+        "submitted": 0,
+        "height_cm": 0,
+        "weight_kg": 0
+    },
+    "duplicate_rows": 0,
+    "unique_categorical_values": {
+        "student_id": [
+            "S001",
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010"
+        ],
+        "name": [
+            "Aarav",
+            "Meera",
+            "Kabir",
+            "Isha",
+            "Rohan",
+            "Tara",
+            "Dev",
+            "Naina",
+            "Omkar",
+            "Diya"
+        ],
+        "domain": [
+            "ML",
+            "Web",
+            "Electronics",
+            "Mechanical"
+        ],
+        "submitted": [
+            true,
+            false
+        ]
+    }
+}

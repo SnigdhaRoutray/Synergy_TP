@@ -1,0 +1,135 @@
+{
+    "rows": 11,
+    "columns": [
+        "student_id",
+        "name",
+        "domain",
+        "attendance_percent",
+        "score",
+        "study_hours",
+        "height",
+        "weight",
+        "submitted"
+    ],
+    "data_types": {
+        "student_id": "str",
+        "name": "str",
+        "domain": "str",
+        "attendance_percent": "str",
+        "score": "str",
+        "study_hours": "str",
+        "height": "str",
+        "weight": "str",
+        "submitted": "str"
+    },
+    "missing_values": {
+        "student_id": 0,
+        "name": 0,
+        "domain": 0,
+        "attendance_percent": 1,
+        "score": 1,
+        "study_hours": 0,
+        "height": 0,
+        "weight": 1,
+        "submitted": 0
+    },
+    "duplicate_rows": 1,
+    "unique_categorical_values": {
+        "student_id": [
+            "S001",
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010"
+        ],
+        "name": [
+            "Aarav",
+            "Meera",
+            "Kabir",
+            "Isha",
+            "Rohan",
+            "Tara",
+            "Dev",
+            "Naina",
+            "Omkar",
+            "Diya"
+        ],
+        "domain": [
+            "ml",
+            "Web Dev",
+            "ML",
+            "electronics",
+            "web",
+            "MACHINE LEARNING",
+            "Mechanical",
+            "Electronics",
+            "web development"
+        ],
+        "attendance_percent": [
+            "92%",
+            "88",
+            "95%",
+            "72",
+            "90%",
+            "-10",
+            "105%",
+            "85%",
+            "80"
+        ],
+        "score": [
+            "8",
+            "6",
+            "0",
+            "nine",
+            "4",
+            "7",
+            "10"
+        ],
+        "study_hours": [
+            "5",
+            "3",
+            "0",
+            "4",
+            "two",
+            "6",
+            "1",
+            "8",
+            "2"
+        ],
+        "height": [
+            "170 cm",
+            "1.62 m",
+            "168cm",
+            "158 cm",
+            "172 cm",
+            "165cm",
+            "180 cm",
+            "160 cm",
+            "175 cm",
+            "1.55 m"
+        ],
+        "weight": [
+            "65 kg",
+            "55kg",
+            "50 kg",
+            "70kg",
+            "58 kg",
+            "80 kg",
+            "52 kg",
+            "77 kg",
+            "49kg"
+        ],
+        "submitted": [
+            "yes",
+            "Yes",
+            "no",
+            "Y",
+            "N"
+        ]
+    }
+}

@@ -6,12 +6,6 @@ This repository contains a report covering the fundamental concepts required bef
 
 The report discusses essential concepts such as observations, variables, categorical and numerical data, raw and processed data, measurement units, summary statistics, and basic dataset inspection. Examples from Biochemistry, Electronics, and Mechanical Engineering are included to demonstrate how the same numerical value can have entirely different meanings depending on its domain and units.
 
-## Contents
-
-- Report documenting fundamental data analysis concepts
-- Domain-specific examples from engineering and science
-- IEEE-formatted references
-
 ## Topics Covered
 
 - Dataset structure

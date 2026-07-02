@@ -1,3 +1,5 @@
+# Task 7: Data Understanding and Measurement Basics
+
 # Objectives
 
 This repository contains a report covering the fundamental concepts required before performing data analysis, visualization, or machine learning. The focus is on understanding what data represents, how datasets are structured, and why context is just as important as the values themselves.

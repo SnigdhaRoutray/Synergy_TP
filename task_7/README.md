@@ -30,7 +30,7 @@ The report discusses essential concepts such as observations, variables, categor
 
 ## Purpose
 
-The purpose of this report is to build a strong conceptual foundation for future work involving data preprocessing, exploratory data analysis, visualization, and machine learning.
+The purpose of this report is to build a strong conceptual foundation for future work involving data preprocessing, exploratory data analysis, visualisation, and machine learning.
 
 ## References
 

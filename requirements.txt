@@ -2,3 +2,5 @@ numpy
 pandas
 word2number
 matplotlib
+scikit-learn
+scipy

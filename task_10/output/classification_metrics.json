@@ -1,0 +1,20 @@
+{
+  "model_accuracy": 0.9136276391554703,
+  "model_precision": 0.9243027888446215,
+  "model_recall": 0.8992248062015504,
+  "model_f1": 0.9115913555992141,
+  "baseline_accuracy": 0.5047984644913628,
+  "baseline_precision": 0.0,
+  "baseline_recall": 0.0,
+  "baseline_f1": 0.0,
+  "confusion_matrix": [
+    [
+      488,
+      38
+    ],
+    [
+      52,
+      464
+    ]
+  ]
+}

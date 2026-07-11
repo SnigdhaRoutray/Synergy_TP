@@ -1,8 +1,8 @@
 # Task 10: Baseline Machine Learning from Scratch (AirQualityUCI)
 
 ## Objective
-This project implements a full baseline ML workflow — regression, classification,
-and clustering — entirely from scratch in NumPy, without scikit-learn or any other
+This project implements a full baseline ML workflow: regression, classification,
+and clustering, entirely from scratch in NumPy, without scikit-learn or any other
 ready-made ML library.
 
 ## Dataset
